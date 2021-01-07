@@ -1,0 +1,33 @@
+Html Webpack Plugin:
+<pre>
+  Error: Parse Error: <link font-family: "Montserrat", sans-serif;
+      href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swa  p"
+      rel="stylesheet" />
+      <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <div id="root"></div>
+      <script src="../src/index.js" type="text/jsx"></script>
+    <script>!function(e){function r(r){for(var n,p,a=r[0],i=r[1],l=r[2],c=0,s=[];c  <a.length;c++)p=a[c],Object.prototype.hasOwnProperty.call(o,p)&&o[p]&&s.push(o[p  ][0]),o[p]=0;for(n in i)Object.prototype.hasOwnProperty.call(i,n)&&(e[n]=i[n]);f  or(f&&f(r);s.length;)s.shift()();return u.push.apply(u,l||[]),t()}function t(){f  or(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=1;a<t.length;a++){var i=t[a];  0!==o[i]&&(n=!1)}n&&(u.splice(r--,1),e=p(p.s=t[0]))}return e}var n={},o={1:0},u=  [];function p(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};re  turn e[r].call(t.exports,t,t.exports,p),t.l=!0,t.exports}p.m=e,p.c=n,p.d=functio  n(e,r,t){p.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},p.r=functio  n(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Sy  mbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!  0})},p.t=function(e,r){if(1&r&&(e=p(e)),8&r)return e;if(4&r&&"object"===typeof e  &&e&&e.__esModule)return e;var t=Object.create(null);if(p.r(t),Object.defineProp  erty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e  )p.d(t,n,function(r){return e[r]}.bind(null,n));return t},p.n=function(e){var r=  e&&e.__esModule?function(){return e.default}:function(){return e};return p.d(r,"  a",r),r},p.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},p.p  ="/keeper/";var a=this["webpackJsonpkeeper-part-3-starting"]=this["webpackJsonpk  eeper-part-3-starting"]||[],i=a.push.bind(a);a.push=r,a=a.slice();for(var l=0;l<  a.length;l++)r(a[l]);var f=i;t()}([]);
+  //# sourceMappingURL=runtime-main.4ac50011.js.map</script><script src="/keeper/s  tatic/js/2.8dfbbd3e.chunk.js"></script><script src="/keeper/static/js/main.18f1b  887.chunk.js"></script></body>
+  </html>
+  
+  - htmlparser.js:244 new HTMLParser
+    [keeper]/[html-minifier-terser]/src/htmlparser.js:244:13
+  
+  - htmlminifier.js:993 minify
+    [keeper]/[html-minifier-terser]/src/htmlminifier.js:993:3
+  
+  - htmlminifier.js:1354 Object.exports.minify
+    [keeper]/[html-minifier-terser]/src/htmlminifier.js:1354:16
+  
+  - index.js:445 HtmlWebpackPlugin.postProcessHtml
+    [keeper]/[html-webpack-plugin]/index.js:445:41
+  
+  - index.js:274 
+    [keeper]/[html-webpack-plugin]/index.js:274:25
+  
+  - task_queues.js:97 processTicksAndRejections
+    internal/process/task_queues.js:97:5
+  
+</pre>
