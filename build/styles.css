@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  background-color: #f5ba13;
+  background-color: #b590ca;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -21,21 +21,36 @@ header {
 
 header h1 {
   color: #fff;
-  font-family: "McLaren", cursive;
+  font-family: "Berkshire Swash", cursive;
   font-weight: 200;
 }
 
 footer {
-  position: absolute;
+  position: fixed;
+  background-color: #b590ca;
+  color: #fff;
   text-align: center;
   bottom: 0;
+  margin: 0 -16px;
+  padding: 10px;
   width: 100%;
   height: 2.5rem;
 }
 
-footer p {
-  color: #ccc;
+footer a {
+  color: #555555;
+  text-decoration: none;
 }
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer p {
+  padding-bottom: -20px;
+}
+
 .note {
   background: #fff;
   border-radius: 7px;
@@ -44,6 +59,7 @@ footer p {
   width: 240px;
   margin: 16px;
   float: left;
+  overflow: auto;
 }
 .note h1 {
   font-size: 1.1em;
@@ -60,7 +76,7 @@ footer p {
   position: relative;
   float: right;
   margin-right: 10px;
-  color: #f5ba13;
+  color: #fada95;
   border: none;
   width: 36px;
   height: 36px;
@@ -91,7 +107,7 @@ form.create-note button {
   position: absolute;
   right: 18px;
   bottom: -18px;
-  background: #f5ba13;
+  background: #a8d3da;
   color: #fff;
   border: none;
   border-radius: 50%;
